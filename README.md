@@ -44,7 +44,7 @@ plotConfusionMatrix(
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_1.png" width="300">
+  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_1.png" width="400">
 </p>
 
 
@@ -64,6 +64,10 @@ plotConfusionMatrix(
 )
 ```
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_2.png" width="400">
+</p>
+
 
 ## Example 3: Highlighting and Class Labels
 
@@ -80,6 +84,10 @@ plotConfusionMatrix(
     percentage_display = FALSE
 )
 ```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_3.png" width="400">
+</p>
 
 
 ## Example 4: Comprehensive Customization
@@ -123,5 +131,9 @@ plotConfusionMatrix(
     top_margin = 6.0
 )
 ```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_4.png" width="400">
+</p>
 
 These examples start from very basic usage and move towards increasingly complex scenarios, demonstrating the flexibility and powerful visualization capabilities of the plotConfusionMatrix function.
