@@ -33,6 +33,6 @@ diagonals if specified. This allows for a measure of accuracy that can accept
 near-miss classifications as correct within a certain tolerance.
 }
 \examples{
-table <- matrix(c(10, 2, 1, 2, 15, 3, 4, 0, 18), nrow = 3, byrow = TRUE)
+table <- matrix(c(10, 2, 1, 2, 25, 3, 4, 0, 18), nrow = 3, byrow = TRUE)
 getAccuracy(table, 1)  # Includes main diagonal and one parallel on each side
 }
