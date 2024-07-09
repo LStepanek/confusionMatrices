@@ -1,5 +1,5 @@
 # Summary 
-An `R` package `confusionMatrices` enables plotting confusion matrices, highlighting their main and parallel diagonals and calculation performance metrics.
+An `R` package `confusionMatrices` enables plotting confusion matrices, highlighting their main and parallel diagonals, and calculating performance metrics.
 
 # Installation
 ```
@@ -10,7 +10,7 @@ library(confusionMatrices)
 ```
 
 # Examples
-Below are several examples that demonstrate the usage of the plotConfusionMatrix function. Each example progressively introduces more complexity and highlights different features of the function.
+Below are several examples that demonstrate the usage of the `plotConfusionMatrix()` function. Each example progressively introduces more complexity and highlights different features of the function.
 
 ## Example 1: Basic Usage
 This simple example demonstrates the default usage of the function with a basic confusion matrix, utilizing default color scaling and no highlighting.
@@ -128,7 +128,7 @@ plotConfusionMatrix(
 
 These examples start from very basic usage and move towards increasingly complex scenarios, demonstrating the flexibility and powerful visualization capabilities of the plotConfusionMatrix function.
 
-## Example 5: Usage of `getAccuracy` Function
+## Example 5: Usage of `getAccuracy()` Function
 The function `getAccuracy` provides a versatile way to calculate the accuracy of a classification model based on the alignment along the diagonal(s) of a confusion matrix. Below are examples demonstrating how to use this function with different settings for the `n_of_parallel_diagonals_to_consider` parameter. The examples assume complex_table is a predefined confusion matrix available within the package.
 
 ### Example 5.1: Calculating Accuracy with Only the Main Diagonal
