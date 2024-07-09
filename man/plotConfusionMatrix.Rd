@@ -119,5 +119,6 @@ plotConfusionMatrix(table, color = "rgb_scaled", rgb_code = c(1, 0.5, 0),
                     horizontal_label = "Predicted Class",
                     vertical_label = "Actual Class",
                     main_diagonal_highlighting = "color",
-                    rgb_code_highlighting = c(0.5, 0.5, 0.5))
+                    rgb_code_highlighting = c(0.5, 0.5, 0.5),
+                    percentage_display = FALSE)
 }
