@@ -137,3 +137,10 @@ plotConfusionMatrix(
 </p>
 
 These examples start from very basic usage and move towards increasingly complex scenarios, demonstrating the flexibility and powerful visualization capabilities of the plotConfusionMatrix function.
+
+
+# Poster from [useR!2024](https://events.linuxfoundation.org/user/) conference
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_4.png" width="600">
+</p>
