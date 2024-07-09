@@ -109,7 +109,7 @@ terms.
 }
 \examples{
 table <- matrix(
-   c(10, 2, 1, 2, 15, 3, 4, 0, 18),
+   c(10, 2, 1, 2, 25, 3, 4, 0, 18),
    nrow = 3,
    byrow = TRUE,
    dimnames = list(observed = c("class_1", "class_2", "class_3"),
