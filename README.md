@@ -2,21 +2,17 @@
 An `R` package `confusionMatrices` enables plotting confusion matrices, highlighting their main and parallel diagonals and calculation performance metrics.
 
 # Installation
-
 ```
 library(devtools)
 devtools::install_github("LStepanek/confusionMatrices")
+
 library(confusionMatrices)
 ```
 
-
 # Examples
-
 Below are several examples that demonstrate the usage of the plotConfusionMatrix function. Each example progressively introduces more complexity and highlights different features of the function.
 
-
 ## Example 1: Basic Usage
-
 This simple example demonstrates the default usage of the function with a basic confusion matrix, utilizing default color scaling and no highlighting.
 
 ```
@@ -47,9 +43,7 @@ plotConfusionMatrix(
   <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_1.png" width="400">
 </p>
 
-
 ## Example 2: Adding Color and Labels
-
 This example uses RGB color scaling and adds custom labels to the axes, making it slightly more complex and visually distinct.
 
 ```
@@ -68,9 +62,7 @@ plotConfusionMatrix(
   <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_2.png" width="400">
 </p>
 
-
 ## Example 3: Highlighting and Class Labels
-
 This example introduces diagonal highlighting and custom class labels, showcasing the function's capability to emphasize specific parts of the matrix and label classes differently.
 
 ```
@@ -89,9 +81,7 @@ plotConfusionMatrix(
   <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_3.png" width="400">
 </p>
 
-
 ## Example 4: Comprehensive Customization
-
 This final example uses a comprehensive set of customizations, including highlighting multiple diagonals, displaying percentages, and adjusting text and frame properties, representing the most complex use case.
 
 ```
@@ -138,13 +128,10 @@ plotConfusionMatrix(
 
 These examples start from very basic usage and move towards increasingly complex scenarios, demonstrating the flexibility and powerful visualization capabilities of the plotConfusionMatrix function.
 
-
 ## Example 5: Usage of `getAccuracy` Function
-
 The function `getAccuracy` provides a versatile way to calculate the accuracy of a classification model based on the alignment along the diagonal(s) of a confusion matrix. Below are examples demonstrating how to use this function with different settings for the `n_of_parallel_diagonals_to_consider` parameter. The examples assume complex_table is a predefined confusion matrix available within the package.
 
 ### Example 5.1: Calculating Accuracy with Only the Main Diagonal
-
 This example calculates traditional accuracy, considering only exact matches between the predicted and actual classes. This is the strictest measure of accuracy, focusing solely on perfect predictions.
 
 ```
@@ -160,7 +147,6 @@ getAccuracy(
 ```
 
 ### Example 5.2: Calculating Accuracy Including Adjacent Diagonals
-
 This example extends the concept of accuracy to include predictions that are off by one class. It considers predictions that are either one class higher or one class lower than the actual class as correct. This approach is particularly useful in ordered classes where adjacent categories may carry similar practical implications.
 
 ```
@@ -177,9 +163,7 @@ getAccuracy(
 
 The `getAccuracy` function's flexibility allows users to define what constitutes an accurate prediction, making it adaptable to various practical scenarios. By adjusting the `n_of_parallel_diagonals_to_consider`, users can tailor the strictness of the accuracy calculation to reflect realistic expectations and the nature of the classification task at hand. The comparison between the calculated `$accuracy` and the `$expected_accuracy` of a random classifier is crucial for assessing the true effectiveness of our model. It helps in understanding whether the improvements in accuracy are due to the model's predictive capabilities or merely due to chance. This comparison also provides a baseline to gauge the performance enhancements needed and helps in making informed decisions about further model development and deployment strategies.
 
-
 # Poster from [useR!2024](https://events.linuxfoundation.org/user/) conference
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/user_2024_poster.png">
 </p>
