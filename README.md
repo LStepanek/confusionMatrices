@@ -163,7 +163,7 @@ getAccuracy(
 
 The `getAccuracy` function's flexibility allows users to define what constitutes an accurate prediction, making it adaptable to various practical scenarios. By adjusting the `n_of_parallel_diagonals_to_consider`, users can tailor the strictness of the accuracy calculation to reflect realistic expectations and the nature of the classification task at hand. The comparison between the calculated `$accuracy` and the `$expected_accuracy` of a random classifier is crucial for assessing the true effectiveness of our model. It helps in understanding whether the improvements in accuracy are due to the model's predictive capabilities or merely due to chance. This comparison also provides a baseline to gauge the performance enhancements needed and helps in making informed decisions about further model development and deployment strategies.
 
-# Poster from [useR!2024](https://events.linuxfoundation.org/user/) conference
+# Poster from [useR!2024](https://events.linuxfoundation.org/user/) Conference
 <p align="center">
   <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/user_2024_poster.png">
 </p>
