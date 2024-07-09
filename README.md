@@ -43,6 +43,10 @@ plotConfusionMatrix(
 )
 ```
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LStepanek/confusionMatrices/main/notes/example_1.png" width="300">
+</p>
+
 
 ## Example 2: Adding Color and Labels
 
