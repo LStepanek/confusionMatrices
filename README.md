@@ -1,6 +1,14 @@
 # Summary 
 An `R` package `confusionMatrices` enables plotting confusion matrices, highlighting their main and parallel diagonals and calculation performance metrics.
 
+# Installation
+
+```
+library(devtools)
+devtools::install_github("LStepanek/confusionMatrices")
+library(confusionMatrices)
+```
+
 
 # Examples
 
